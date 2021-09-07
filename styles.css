@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Dancing+Script&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&family=Teko:wght@300&display=swap');
+.container{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    /* transform: rotate(90deg); */
+    top: 0%;
+    /* transform: translateY(-50%); */
+}
+/* pour faire scroll vertical metre transform:rotate(90deg) pour scroll horizontale top40% transform:translateY(-50%) */
+.txt{
+    white-space: nowrap;
+    font-size: 250px;
+    animation: scrollTxt 12s linear infinite;
+}
+/* la cmd animation permet de gerer la vitesse de défilement */
+/* .t1{
+    color: rgb(240, 164, 240);
+}
+.t2{
+    color: rgb(118, 224, 118);
+} */
+/* sans de rotation */
+@keyframes scrollTxt{
+    0%{
+        background-color: pink;
+        color: green;
+        transform: translate(-100%, 0);
+        font-size: 50px;
+        font-family: 'Rampart One', cursive;
+    }
+    50%{
+        color: crimson;
+        font-size: 125px;
+        font-family: 'Alumni Sans', sans-serif;
+    }
+    100%{
+        color: blue;
+        transform: translate(0%, 0);
+        font-size: 50px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+.containe{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: rotate(90deg);
+}
+.txts{
+    white-space: nowrap;
+    font-size: 250px;
+    animation: scrolltxts 12s linear infinite;
+}
+@keyframes scrolltxts{
+    0%{
+        transform: translate(-100%, 0);
+        color: pink;
+        font-size: 95px;
+    }
+    20%{
+        color: blueviolet;
+        font-size: 22px;
+    }
+    50%{
+        color: red;
+        font-size: 150px;
+    }
+    100%{
+        color: rgb(243, 0, 122);
+        font-size: 95px;
+        transform: translate(0%, 0);
+    }
+}
+.contain{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    /* transform: rotate(225deg); */
+}
+.txtss{
+    white-space: nowrap;
+    font-size: 250px;
+    animation: scrolltxtss 12s linear infinite;
+}
+@keyframes scrolltxtss{
+    0%{
+        transform: translate(0%, 0);
+        color: blueviolet;
+        font-size: 25px;
+        font-family: 'Allison', cursive;
+        background-color: salmon;
+    }
+    25%{
+        background-color: red;
+        color: crimson;
+        font-size: 75px;
+        font-family: 'Indie Flower', cursive;
+    }
+    50%{
+        background-color: blue;
+        color: darkmagenta;
+        font-size: 155px;
+        font-family: 'Pacifico', cursive;
+    }
+    75%{
+        background-color: crimson;
+        color: deepskyblue;
+        font-size: 95px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    100%{
+        background-color: deepskyblue;
+        color: firebrick;
+        transform: translate(-100%, 0);
+        font-size: 75px;
+        font-family: 'Teko', sans-serif;
+    }
+}
+.contai{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    transform: rotate(125deg);
+}
+.txtn{
+    white-space: nowrap;
+    font-size: 250px;
+    animation: scrolltxtss 12s linear infinite;
+}
+@keyframes scrolltxtn{
+    0%{
+        transform: translate(0%, 0);
+        color: blueviolet;
+        font-size: 25px;
+        font-family: 'Allison', cursive;
+        background-color: salmon;
+    }
+    25%{
+        background-color: red;
+        color: crimson;
+        font-size: 75px;
+        font-family: 'Indie Flower', cursive;
+    }
+    50%{
+        background-color: blue;
+        color: darkmagenta;
+        font-size: 155px;
+        font-family: 'Pacifico', cursive;
+    }
+    75%{
+        background-color: crimson;
+        color: deepskyblue;
+        font-size: 95px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    100%{
+        background-color: deepskyblue;
+        color: firebrick;
+        transform: translate(-100%, 0);
+        font-size: 75px;
+        font-family: 'Teko', sans-serif;
+    }
+}
+.container2{
+   transform: translateY(90%);
+   margin-left: 400px;
+    background-color: rgb(190, 68, 160);
+    border: 10px ridge purple;
+    height: 200px;
+    width: 200px;
+    animation: scrollroll 10s linear infinite;
+}
+@keyframes scrollroll{
+    0%{
+        border-radius: 0%;
+    }
+    12%{
+        border-radius: 50%;
+    }
+    25%{
+        border-radius: 0%;
+    }
+    37%{
+        border-radius: 50%;
+    }
+    50%{
+        border-radius: 0%;
+    }
+    62%{
+        border-radius: 50%;
+    }
+    75%{
+        border-radius: 0%;
+    }
+    87%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
+#img1{
+    margin-left: 1200px;
+    height: 600px;
+    width: 600px;
+    animation: scrollimg 5s linear infinite;
+}
+@keyframes scrollimg{
+    0%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 0;
+    }
+    14%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
+    39%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    62%{
+        opacity: 0;
+    }
+    64%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    87%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#img2{
+     height: 600px;
+     width: 600px;
+     animation: scrollimg2 5s linear infinite;
+}
+@keyframes scrollimg2{
+    0%{
+       transform:  translate(1%, 15%) rotate(0deg);
+    }
+    50%{
+        transform:  translate(10%, 35%) rotate(138deg);
+    }
+    75%{
+        transform:  translate(100%, 20%) rotate(270deg);
+    }
+    100%{
+        transform:  translate(200%, 5%) rotate(125deg);       
+    }
+}
